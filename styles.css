@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 20vh;
+    /*background-image: url("../img/Samurai.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #433878;
+}
+/* nav bar */
+
+
+.nav {
+    background-color: #433878;
+    min-height: 50px;
+}
+
+.nav img {
+    float: left;
+    padding: 5px 25px;
+}
+
+.nav ul  {
+    float: right;
+    line-height: 20px;
+    padding: 0px 10px;
+    
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 5px;
+    
+}
+
+.nav ul li a {
+    color: #FFE1FF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+    
+}
+
+.nav ul li a:hover {
+    background-color: #7E60BF;
+    transition: 0.5s ease;
+    text-decoration: underline;
+}
+
+.nav ul li .active {
+    background-color: #7E60BF;
+}
+
+/* body */
+
+#body .sub h1, p, h3, ul, a {
+    color: #FFE1FF;
+    
+}
+
+
+
+#body .sub h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    width: 18rem;
+
+}
+
+#body .sub p {
+    font-size: 1.1rem;
+    width: 12rem;
+}
+
+
+#body {
+    
+    align-items: center;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-1 {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 0rem 2rem;
+}
+
+
+#first {
+    /*width: 20rem;*/
+    margin-left: 1.5rem;
+    
+}
+
+#hobbies {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 15rem;
+    flex-wrap: wrap;
+}
+
+.anime, .manga {
+    padding: 2rem;
+}
+
+p{
+    text-align: center;
+}
+

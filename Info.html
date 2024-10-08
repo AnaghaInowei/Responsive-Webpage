@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-2.css">
+    <link rel="icon" href="img/favicon-16x16.png">
+    <title>Form</title>
+</head>
+<body>
+    <form class="form" action="#" method="post">
+        <div class="name">
+            <label for="firstname">
+                Firstname:
+                <input type="text" id="firstname" class="firstname" placeholder="John" required>
+            </label><br><br>
+            <label for="firstname">Surname:
+                <input type="text" id="surname" class="surname" placeholder="Doe" required>
+            </label>
+        </div><br>
+        <div class="dob">
+            <label for="dob">Date Of Birth:
+                <input type="date" id="dob" class="dob" required>
+            </label>
+        </div><br>
+        <div class="email">
+            <label for="email">Email:
+                <input type="email" id="email" class="email" placeholder="youremail@email.com" required>
+            </label>
+        </div><br>
+        <div class="cv">
+            <label for="cv" important>CV:
+                <input type="file" id="cv" class="cv" required>
+            </label>
+        </div><br>
+        <div class="gender">
+            <label for="gender" id="gender" class="gender">Gender:<label for="male">Male<input type="radio"></label></label><label
+            for="female">Female<input type="radio"></label>
+        </div><br>
+        <div>
+            <label for="work">Which Languages are the most proficient in? 
+                <select name="languages" id="work">
+                    <option value=""></option>
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">JavaScript</option>
+                    <option value="">React</option>
+                </select>
+            </label>
+        </div><br>
+        <input type="submit">
+        </div>
+</body>
+</html>

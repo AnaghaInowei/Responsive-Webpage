@@ -1,0 +1,19 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5d9f2;
+    margin: auto;
+    text-align: center;
+}
+
+.form {
+    margin: 10% auto;
+    text-align: center;
+    background-color: #7E60BF;
+    padding: 0.5rem 0rem;
+    color: #F5EFFF;
+}
