@@ -19,4 +19,7 @@
 </ul><br>
 <hr>
 
+<h3>Website Responsiveness</h3>
+<p>This website is responsive on different screen sizes; ranging from desktop to mobile. This was made using the flexbox model and also using adjustable units which is the <em>"rem"</em></p>
+
 
