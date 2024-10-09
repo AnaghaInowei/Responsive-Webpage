@@ -100,15 +100,20 @@ body {
 
 #first {
     /*width: 20rem;*/
-    margin-left: 1.5rem;
+    margin-left: 5rem;
     
+}
+
+.peppe {
+    text-align: center;
+    padding-left: 2rem;
 }
 
 #hobbies {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    row-gap: 15rem;
+    row-gap: 2rem;
     flex-wrap: wrap;
 }
 
