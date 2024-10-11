@@ -118,7 +118,15 @@ body {
 }
 
 .anime, .manga {
+    margin: 1rem;
     padding: 2rem;
+    background-color: #7E60BF;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px black;
+}
+
+.anime {
+    
 }
 
 p{
